@@ -1,0 +1,41 @@
+# Nextflow runtime files
+work/
+.nf*
+.nextflow*
+.nextflow/
+.nextflow.log
+.nextflow.config.backup
+
+# Cache and intermediate files
+.cache/
+tmp/
+*.tmp
+*.log
+
+# Conda and virtualenv environments
+.conda/
+envs/
+*.tar.gz
+
+# Singularity / Docker images
+*.sif
+*.img
+
+# nf-core test data and profiles
+test_data/
+results/
+
+# VSCode / IDE junk
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Mac / Linux hidden files
+.DS_Store
+Thumbs.db
+
+# Output reports
+multiqc_report.html
+multiqc_data/
+fastqc/
